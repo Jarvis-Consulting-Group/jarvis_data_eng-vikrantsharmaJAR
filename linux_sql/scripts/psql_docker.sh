@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo "hi world"
+echo "hello world"
+
 
