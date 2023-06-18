@@ -29,11 +29,11 @@ case $cmd in
     fi
 
     # Create container
-    docker volume create psql_volume
+    docker volume create psql_volume1
 
     # Start the container
-    docker run -e POSTGRES_USER=$db_username -e POSTGRES_PASSWORD=$db_password -d --name jrvs-psql -p 5432:5432 -v psql_volume:/var/lib/postgresql/data postgres:9.6-alpine
-
+    docker run --name jrvs-psql -e POSTGRES_PASSWORD=$PGPASSWORD -d -v pgdata:/var/lib/postgresql/data 5432:5432 postgres:9.6-alpine
+      
     # Check the exit status
     exit $?
     ;;
