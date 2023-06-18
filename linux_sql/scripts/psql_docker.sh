@@ -32,7 +32,7 @@ case $cmd in
     docker volume create psql_volume
 
     # Start the container
-    docker run -e POSTGRES_USER=$db_username -e POSTGRES_PASSWORD=$db_password -d --name jrvs-psql -p 5432:5432 -v psql_volume:/var/lib/postgresql/data postgres
+    docker run -e POSTGRES_USER=$db_username -e POSTGRES_PASSWORD=$db_password -d --name jrvs-psql -p 5432:5432 -v psql_volume:/var/lib/postgresql/data postgres:9.6-alpine
 
     # Check the exit status
     exit $?
