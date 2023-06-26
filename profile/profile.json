@@ -1,0 +1,121 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Scholarship",
+        "Dean's List (2015, 2016): Ut enim ad minim veniam",
+        "GPA: 3.8/4.0"
+      ],
+      "degree": "Bachelor of Technology",
+      "department": " Computer Science",
+      "duration": "2006-2011",
+      "school_name": "Visvesvaraya Technological University"
+    },
+    {
+      "awards_achievements": [
+        "GPA: 3.8/4.0"
+      ],
+      "degree": "Post Graduate Diploma/ Associate Degree",
+      "department": "Business Analysis",
+      "duration": "2021-2022",
+      "school_name": "Conestoga College of Advanced Learning and Technology"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-vikrantsharmaJAR",
+  "highlighted_projects": [
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
+      "name": "Web app for restaurant"
+    },
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "hi",
+      "name": "Machine Learning"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-vikrantsharmaJAR",
+      "name": "Linux Cluster Resource Monitoring App"
+    },
+    {
+      "description": "hi",
+      "git_url": "/python_data_analytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "hi",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    }
+  ],
+  "name": "Vikrant Sharma",
+  "others": [
+    {
+      "bullets": [
+        "Udacity Machine Learning (2019)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Winner"
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Basketball player; joined xyz club",
+        "Competitive gaming; compete for xyz",
+        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "2022-present",
+      "title": "Business System Analyst"
+    },
+    {
+      "company": "VPS Solutions",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "2021 to 2023",
+      "title": "Business Analyst"
+    }
+  ],
+  "skills": {
+    "Business Skills": [
+      "Requirement Elicitation",
+      "Team Collaboration",
+      "Communication and interpersonal skills",
+      "BRD/FRD",
+      "User Stories",
+      "JIRA",
+      "Confluence",
+      "UML Modelling",
+      "BPMN",
+      "Use Case",
+      "Process Mapping"
+    ],
+    "Technical Skills": [
+      "RDBMS/SQL",
+      "Data Modeling/Mapping",
+      "Data Analytics",
+      "Visio",
+      "Lucid Charts",
+      "GitHub",
+      "Linux",
+      "Google Cloud Platform",
+      "Sharepoint",
+      "Ms Project",
+      "POSTgreSQL",
+      "SDLC"
+    ]
+  },
+  "summary": "Versatile and accomplished Business Analyst with an experience of 4 years in Project Management and 3 years of recent and dedicated experience as a Business Analyst in leading all phases of diverse technology projects for Software and Web-software development domain clients and specializing in Enterprise IT implementations with sound functional knowledge of process improvement, establishing governance and seamless adoption based on best in class change management processes."
+}
