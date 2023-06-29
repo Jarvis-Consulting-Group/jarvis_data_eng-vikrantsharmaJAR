@@ -1,0 +1,122 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Scholarship",
+        "Dean's List (2015, 2016): Ut enim ad minim veniam",
+        "GPA: 3.6/4.0"
+      ],
+      "degree": "Bachelor of Technology",
+      "department": " Computer Science",
+      "duration": "2006-2011",
+      "school_name": "Visvesvaraya Technological University"
+    },
+    {
+      "awards_achievements": [
+        "GPA: 3.8/4.0"
+      ],
+      "degree": "Post Graduate Diploma/ Associate Degree",
+      "department": "Business Analysis",
+      "duration": "2021-2022",
+      "school_name": "Conestoga College of Advanced Learning and Technology"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-vikrantsharmaJAR",
+  "highlighted_projects": [
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
+      "name": "Web app for restaurant"
+    },
+    {
+      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "git_url": "hi",
+      "name": "Machine Learning"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "In this project, Linux cluster Administration team developed a solution to monitor and manage the cluster of 10 servers/nodes. This application will allow the server users to retrieve and monitor the server hardware specifications as well as their usage information ( cpu, memory and disk usage related data) which will enable the LCA team to make informed decisions about the scalability(scale-up in case of high resource usage and scale down in case of low resource usage) of the servers and allocate the resources accordingly. This server information will streamline the operations hosted on those servers as well as maintenance of these servers. This application is using two bash scripts to retrieve hardware and usage information from the servers. The data collected by these scripts is being stored in the PostgreSQL database instance. We have used PostgreSQL(psql) as a database for higher scalability and security of the data. Following are the technologies used in this project,Git version control to track the development and deployment of the code, Docker Container as this project is developed inside a docker container to enable consistency across different IDE, Database PostgreSQL Apline version 9.6 to store data retrieved from server nodes.Psql Client tool to connect to the database and store the information about the servers into Psql. PostgresSQL instance client with Docker container acting as PostgresSQL server, Bash Scripting To generate two files host.info(to retrieve hardware specification) and host.usage(to retrieve Usage information.),Crontab as It schedules the script to run every minute to collect server`s usage data.This all-inclusive monitoring solution improves the stability and productivity of the server cluster, enabling smooth and uninterrupted operations.",
+      "git_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-vikrantsharmaJAR",
+      "name": "Linux Cluster Resource Monitoring App"
+    },
+    {
+      "description": "hi",
+      "git_url": "/python_data_analytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "hi",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    }
+  ],
+  "name": "Vikrant Sharma",
+  "others": [
+    {
+      "bullets": [
+        "Udacity Machine Learning (2019)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Winner"
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Competitive gaming; Played Cricket and represented state in Government sponsored cricket tournament",
+        "Passionate about Astro-photography",
+        "Meditation: Passionate and have been teaching meditation from last 2 years",
+        "Volunteer work at Khelo India"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "2023-present",
+      "title": "Business System Analyst"
+    },
+    {
+      "company": "VPS Solutions",
+      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
+      "duration": "2021 to 2023",
+      "title": "Business Analyst"
+    }
+  ],
+  "skills": {
+    "Business Skills": [
+      "Requirement Elicitation",
+      "Team Collaboration",
+      "Communication and interpersonal skills",
+      "BRD/FRD",
+      "User Stories",
+      "JIRA",
+      "Confluence",
+      "UML Modelling",
+      "BPMN",
+      "Use Case",
+      "Process Mapping"
+    ],
+    "Technical Skills": [
+      "RDBMS/SQL",
+      "Data Modeling/Mapping",
+      "Data Analytics",
+      "Visio",
+      "Lucid Charts",
+      "GitHub",
+      "Linux",
+      "Google Cloud Platform",
+      "Sharepoint",
+      "Ms Project",
+      "POSTgreSQL",
+      "SDLC"
+    ]
+  },
+  "summary": "Versatile and accomplished Business Analyst with an experience of 4 years in Project Management and 3 years of recent and dedicated experience as a Business Analyst in leading all phases of diverse technology projects for Software and Web-software development domain clients and specializing in Enterprise IT implementations with sound functional knowledge of process improvement, establishing governance and seamless adoption based on best in class change management processes."
+}

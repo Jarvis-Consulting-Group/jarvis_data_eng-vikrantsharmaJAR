@@ -1,0 +1,128 @@
+# Preferred name (Characters only)
+name: "Vikrant Sharma"
+# Your GitHub repo root URL
+github_repo_root_url:  https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-vikrantsharmaJAR
+
+# Introduce yourself (80-120 words)
+# Suggestions: you should
+# 1) describe your academic and work experience (please focus on transferable/job related tech and soft skills only)
+# 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
+# 3) mention what kind of role you are looking for
+# 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your
+summary: Versatile and accomplished Business Analyst with an experience of 4 years in Project Management and 3 years of recent and dedicated experience as a Business Analyst in leading all phases of diverse technology projects for Software and Web-software development domain clients and specializing in Enterprise IT implementations with sound functional knowledge of process improvement, establishing governance and seamless adoption based on best in class change management processes.
+
+skills:
+  # Please include
+  #     1)soft skills (e.g. elicitation, communication, collaboration, interpersonal, etc )
+  #     2) business tools (such as Excel, Visio, etc.)
+ Business Skills:
+    - Requirement Elicitation
+    - Team Collaboration
+    - Communication and interpersonal skills
+    - BRD/FRD
+    - User Stories
+    - JIRA
+    - Confluence
+    - UML Modelling
+    - BPMN
+    - Use Case
+    - Process Mapping
+  # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
+  # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
+ Technical Skills:
+    - RDBMS/SQL
+    - Data Modeling/Mapping
+    - Data Analytics
+    - Visio
+    - Lucid Charts
+    - GitHub
+    - Linux
+    - Google Cloud Platform
+    - Sharepoint
+    - Ms Project
+    - POSTgreSQL
+    - SDLC
+
+      # List of Jarvis projects
+    # Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
+
+jarvis_projects:
+  - name: "Linux Cluster Resource Monitoring App"
+    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-vikrantsharmaJAR"
+    # Focus on BSA work instead of development work
+    # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
+    description: In this project, Linux cluster Administration team developed a solution to monitor and manage the cluster of 10 servers/nodes. This application will allow the server users to retrieve and monitor the server hardware specifications as well as their usage information ( cpu, memory and disk usage related data) which will enable the LCA team to make informed decisions about the scalability(scale-up in case of high resource usage and scale down in case of low resource usage) of the servers and allocate the resources accordingly. This server information will streamline the operations hosted on those servers as well as maintenance of these servers. This application is using two bash scripts to retrieve hardware and usage information from the servers. The data collected by these scripts is being stored in the PostgreSQL database instance. We have used PostgreSQL(psql) as a database for higher scalability and security of the data. Following are the technologies used in this project,Git version control to track the development and deployment of the code, Docker Container as this project is developed inside a docker container to enable consistency across different IDE, Database PostgreSQL Apline version 9.6 to store data retrieved from server nodes.Psql Client tool to connect to the database and store the information about the servers into Psql. PostgresSQL instance client with Docker container acting as PostgresSQL server, Bash Scripting To generate two files host.info(to retrieve hardware specification) and host.usage(to retrieve Usage information.),Crontab as It schedules the script to run every minute to collect server`s usage data.This all-inclusive monitoring solution improves the stability and productivity of the server cluster, enabling smooth and uninterrupted operations.
+
+
+  - name: "Python Data Analytics"
+    git_url: "/python_data_analytics"
+    # Focus on BSA work instead of development work
+    # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
+    description: hi
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: hi
+
+# List of personal or academic projects
+# Please focus on transferable skills, such as soft skills and data related skills
+
+highlighted_projects:
+  #project name
+  - name: "Web app for restaurant"
+    #URL is optional
+    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Machine Learning"
+    git_url: "hi"
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+
+# List of professional experience
+# Please focus on transferable skills, such as soft skills and data related skills
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Business System Analyst"
+    company: "Jarvis"
+    duration: "2023-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Business Analyst"
+    company: "VPS Solutions"
+    duration: "2021 to 2023"
+    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+
+#List of edcuation
+education:
+  - school_name: "Visvesvaraya Technological University"
+    duration: "2006-2011"
+    degree: "Bachelor of Technology"
+    department: " Computer Science"
+    # optional
+    awards_achievements:
+      - "Scholarship"
+      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+      - "GPA: 3.6/4.0"
+  - school_name: "Conestoga College of Advanced Learning and Technology"
+    duration: "2021-2022"
+    degree: "Post Graduate Diploma/ Associate Degree"
+    department: "Business Analysis"
+    awards_achievements:
+      - "GPA: 3.8/4.0"
+#Optional section
+others:
+  #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Udacity Machine Learning (2019)"
+  - title: "Awards"
+    bullets:
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Competitive gaming; Played Cricket and represented state in Government sponsored cricket tournament"
+      - "Passionate about Astro-photography"
+      - "Meditation: Passionate and have been teaching meditation from last 2 years"
+      - "Volunteer work at Khelo India"
+
