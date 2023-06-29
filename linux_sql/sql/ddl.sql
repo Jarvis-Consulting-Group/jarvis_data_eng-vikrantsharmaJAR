@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS host_info
      CONSTRAINT host_info_pk PRIMARY KEY (id),
      CONSTRAINT host_info_un UNIQUE (hostname)
   );
+  --this is testing
   
   CREATE TABLE IF NOT EXISTS host_usage 
   ( 
