@@ -25,6 +25,7 @@ skills:
     - Confluence
     - UML Modelling
     - BPMN
+    - Requirement Traceability Matrix
     - Use Case
     - Process Mapping
     - Process Improvement
@@ -32,7 +33,7 @@ skills:
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
  Technical Skills:
-    - RDBMS/SQL
+    - DBMS(MS SQL Server, My SQL, PostgreSQL)
     - Data Modeling/Mapping
     - Data Analytics
     - Visio
@@ -42,7 +43,6 @@ skills:
     - Google Cloud Platform
     - Sharepoint
     - Microsoft Project
-    - PostgreSQL
     - SDLC
     - Agile/Scrum
     - Waterfall methodologies
@@ -77,9 +77,9 @@ highlighted_projects:
     #git_url: ""
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: WAAW is a cutting-edge hiring solution project consisting of two modules. Its primary objective is to provide a comprehensive platform that facilitates effective communication and hiring for job seekers and employers. The first module enables employers to post job opportunities, create projects, and leverage service integration for extracting user profile information. The second module offers an integrated platform for employers to manage employee shifts, schedules, break times, and handle payroll and overtime. WAAW cloud platform provides a complete suite of features, empowering employers and employees to collaborate and work flexibly from anywhere, at any time. The MVP 1 for this project has been released and can be viewed on waaw ca.
-  - name: "Insight"
+ # - name: "Insight"
     #git_url: ""
-    description: everything seems goos here, testing if everything is working fine or not.
+  #  description: everything seems goos here, testing if everything is working fine or not.
 
 # List of professional experience
 # Please focus on transferable skills, such as soft skills and data related skills
@@ -105,6 +105,11 @@ professional_experience:
     company: "CompuCom"
     duration: "April 2016 to April 2017"
     description: Utilized leveraging tools such as MS Project, Visio, and SharePoint, I achieved increase in project planning efficiency, reducing documentation time by 20%. Created Project Schedules and managed project resources in Microsoft project. Tracked project progress and generated progress reports at regular intervals to present to stakeholders to keep them updated. Utilized JIRA for internal team communication and ticketing  ensured timely project completion, reducing project delays by 25%. Facilitating project meetings fostered effective communication, resulting in increase in team alignment and collaboration. Utilizing Confluence, I streamline project documentation, leading to a 15% improvement in progress tracking and lead to successfull project delivery.
+  # Fifth Experience
+  - title: "Test Engineer (Manual)"
+    company: "HCLTech"
+    duration: "September 2011 to September 2014"
+    description: As a manual tester at HCLTech, I have successfully managed test cases, define test requirements, track test execution progress, and report on test results using HP Quality center. It enables collaboration among team members, allowing them to share test artifacts, track changes, and communicate effectively. Written test cases for multiple projects and logged bugs using bug tracking tools like Bugzilla and Jira. With my meticulous approach, I have consistently ensured high-quality software by identifying and reporting defects effectively.
 #List of edcuation
 education:
   - school_name: "Visvesvaraya Technological University"
@@ -122,20 +127,28 @@ education:
     department: "Business Analysis"
     awards_achievements:
       - "GPA: 3.8/4.0"
+  - school_name: "Conestoga College of Advanced Learning and Technology"
+    duration: "January 2021 to November 2021"
+    degree: "Post Graduate Diploma/ Associate Degree"
+    department: "Project Management"
+    awards_achievements:
+      - "GPA: 3.73/4.0"
 #Optional section
 others:
   #category
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "Certified Scrum Master from Scrum Alliance valid till 2025"
+      - "Enter Certificate in Business Analysis from IIBA"
+      - "Scaled Agile Framework Expert(SAFe 6.0) certified from Scaled Agile Inc"
+ # - title: "Awards"
+  #  bullets:
+   #   - "Winner"
   - title: "Activities/Hobbies"
     bullets:
       - "Competitive gaming; Played Cricket and represented state in Government sponsored cricket tournament"
-      - "Passionate about Astro-photography"
+      - "Passionate about Astro-photography, got recognised for the picture of Orion star cluster that was published in Local Magazine "
       - "Meditation: Passionate and have been teaching meditation from last 2 years"
-      - "Volunteer work at Khelo India"
+      - "Actively volunteered at Khelo India, dedicating my efforts to promote and raise awareness about sports among women in India"
 
