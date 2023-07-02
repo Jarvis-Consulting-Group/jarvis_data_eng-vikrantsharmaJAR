@@ -31,7 +31,7 @@
   "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-vikrantsharmaJAR",
   "highlighted_projects": [
     {
-      "description": "WAAW is a cutting-edge hiring solution project consisting of two modules. Its primary objective is to provide a comprehensive platform that facilitates effective communication and hiring for job seekers and employers. The first module enables employers to post job opportunities, create projects, and leverage service integration for extracting user profile information. The second module offers an integrated platform for employers to manage employee shifts, schedules, break times, and handle payroll and overtime. WAAW cloud platform provides a complete suite of features, empowering employers and employees to collaborate and work flexibly from anywhere, at any time. The MVP 1 for this project has been released and can be viewed on waaw ca.",
+      "description": "WAAW is a cutting-edge hiring solution project consisting of two modules. Its primary objective is to provide a comprehensive platform that facilitates effective communication and hiring for job seekers and employers. The first module enables employers to post job opportunities, create projects, and leverage service integration for extracting user profile information. The second module offers an integrated platform for employers to manage employee shifts, schedules, break times, and handle payroll and overtime. WAAW cloud platform provides a complete suite of features, empowering employers and employees to collaborate and work flexibly from anywhere, at any time. The MVP 1 for this project has been released and can be viewed on `www.waaw.ca`.",
       "name": "WAAW (Work Anytime, Any Where), Work Scheduler"
     }
   ],
@@ -101,7 +101,7 @@
       "Communication",
       "BRD/FRD",
       "User Stories",
-      "JIRA",
+      "ALM tools (JIRA, ASANA)",
       "Confluence",
       "UML Modelling",
       "BPMN",

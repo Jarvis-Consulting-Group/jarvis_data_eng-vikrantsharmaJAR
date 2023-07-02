@@ -21,7 +21,7 @@ skills:
     - Communication
     - BRD/FRD
     - User Stories
-    - JIRA
+    - ALM tools (JIRA, ASANA)
     - Confluence
     - UML Modelling
     - BPMN
@@ -76,7 +76,7 @@ highlighted_projects:
     #URL is optional
     #git_url: ""
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: WAAW is a cutting-edge hiring solution project consisting of two modules. Its primary objective is to provide a comprehensive platform that facilitates effective communication and hiring for job seekers and employers. The first module enables employers to post job opportunities, create projects, and leverage service integration for extracting user profile information. The second module offers an integrated platform for employers to manage employee shifts, schedules, break times, and handle payroll and overtime. WAAW cloud platform provides a complete suite of features, empowering employers and employees to collaborate and work flexibly from anywhere, at any time. The MVP 1 for this project has been released and can be viewed on waaw ca.
+    description: WAAW is a cutting-edge hiring solution project consisting of two modules. Its primary objective is to provide a comprehensive platform that facilitates effective communication and hiring for job seekers and employers. The first module enables employers to post job opportunities, create projects, and leverage service integration for extracting user profile information. The second module offers an integrated platform for employers to manage employee shifts, schedules, break times, and handle payroll and overtime. WAAW cloud platform provides a complete suite of features, empowering employers and employees to collaborate and work flexibly from anywhere, at any time. The MVP 1 for this project has been released and can be viewed on `www.waaw.ca`.
  # - name: "Insight"
     #git_url: ""
   #  description: everything seems goos here, testing if everything is working fine or not.
