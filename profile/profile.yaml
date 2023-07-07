@@ -9,7 +9,7 @@ github_repo_root_url:  https://github.com/Jarvis-Consulting-Group/jarvis_data_en
 # 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
 # 3) mention what kind of role you are looking for
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your
-summary: Versatile and accomplished Business Analyst with an experience of 4 years in Project Management and 3 years of recent and dedicated experience as a Business Analyst in leading all phases of diverse technology projects for Software and Web-software development domain clients and specializing in Enterprise IT implementations with sound functional knowledge of process improvement, establishing governance and seamless adoption based on best in class change management processes.
+summary: Results-driven Business Analyst with 3+ years of experience driving process improvements, analyzing business needs, and delivering strategic solutions. Proven track record of leading cross-functional teams, conducting thorough data analysis, and implementing innovative strategies. Skilled in requirements gathering, stakeholder management, and facilitating effective communication across technical and non-technical stakeholders. Committed to delivering high-quality results within timelines and budgets to foster business growth. Moreover, I possess a comprehensive 4-year background in Project Management, offering invaluable expertise in supporting diverse web applications.
 
 skills:
   # Please include
@@ -18,19 +18,23 @@ skills:
  Business Skills:
     - Requirement Elicitation
     - Team Collaboration
-    - Communication and interpersonal skills
+    - Communication
     - BRD/FRD
     - User Stories
-    - JIRA
+    - ALM tools (JIRA, ASANA)
+    - Communication Tools(MS Team, ZOOM, SLACK)
     - Confluence
     - UML Modelling
     - BPMN
+    - Requirement Traceability Matrix
     - Use Case
     - Process Mapping
+    - Process Improvement
+    - Facilitation
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
  Technical Skills:
-    - RDBMS/SQL
+    - DBMS(MS SQL Server, My SQL, PostgreSQL)
     - Data Modeling/Mapping
     - Data Analytics
     - Visio
@@ -39,9 +43,10 @@ skills:
     - Linux
     - Google Cloud Platform
     - Sharepoint
-    - Ms Project
-    - POSTgreSQL
+    - Microsoft Project
     - SDLC
+    - Agile/Scrum
+    - Waterfall methodologies
 
       # List of Jarvis projects
     # Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
@@ -51,47 +56,61 @@ jarvis_projects:
     git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-vikrantsharmaJAR"
     # Focus on BSA work instead of development work
     # Include the following keywords: BRD, SRD, Elicitation, stakeholder, reqruiement, analysis, RDBMS, SQL, data modeling, SLA
-    description: In this project, Linux cluster Administration team developed a solution to monitor and manage the cluster of 10 servers/nodes. This application will allow the server users to retrieve and monitor the server hardware specifications as well as their usage information ( cpu, memory and disk usage related data) which will enable the LCA team to make informed decisions about the scalability(scale-up in case of high resource usage and scale down in case of low resource usage) of the servers and allocate the resources accordingly. This server information will streamline the operations hosted on those servers as well as maintenance of these servers. This application is using two bash scripts to retrieve hardware and usage information from the servers. The data collected by these scripts is being stored in the PostgreSQL database instance. We have used PostgreSQL(psql) as a database for higher scalability and security of the data. Following are the technologies used in this project,Git version control to track the development and deployment of the code, Docker Container as this project is developed inside a docker container to enable consistency across different IDE, Database PostgreSQL Apline version 9.6 to store data retrieved from server nodes.Psql Client tool to connect to the database and store the information about the servers into Psql. PostgresSQL instance client with Docker container acting as PostgresSQL server, Bash Scripting To generate two files host.info(to retrieve hardware specification) and host.usage(to retrieve Usage information.),Crontab as It schedules the script to run every minute to collect server`s usage data.This all-inclusive monitoring solution improves the stability and productivity of the server cluster, enabling smooth and uninterrupted operations.
+    description: The Linux cluster Administration team developed a solution to monitor and manage a cluster of 10 servers. This application allows server users to retrieve and monitor server hardware specifications and usage information by using two bash scripts. The data is collected and stored in a PostgreSQL database for scalability and data security. Technologies used include Linux CLI, Git for version control, Docker for consistent development(psql_docker), bash scripting(host and usage) to retrieve hardware and usage data,  PostgreSQL(server) Alpine version 9.6 for data storage and psql CLI Client tool to create tables(sql/ddl.sql) in server to store data.The Crontab tool schedules the script to run every minute, facilitating the collection of server usage data The solution improves server cluster stability and productivity, enabling streamlined operations and maintenance.
 
 
-  - name: "Python Data Analytics"
-    git_url: "/python_data_analytics"
+  #- name: "Python Data Analytics"
+   # git_url: "/python_data_analytics"
     # Focus on BSA work instead of development work
     # e.g. solve business problem, requirement, data sources, analytics, stakeholders, documentation
-    description: hi
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: hi
+   # description: hi
+  #- name: "Hadoop"
+   # git_url: "/hadoop"
+   # description: hi
 
 # List of personal or academic projects
 # Please focus on transferable skills, such as soft skills and data related skills
 
 highlighted_projects:
   #project name
-  - name: "Web app for restaurant"
+  - name: "WAAW (Work Anytime, Any Where), Work Scheduler"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    #git_url: ""
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url: "hi"
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: WAAW is a cutting-edge hiring solution project consisting of two modules. Its primary objective is to provide a comprehensive platform that facilitates effective communication and hiring for job seekers and employers. The first module enables employers to post job opportunities, create projects, and leverage service integration for extracting user profile information. The second module offers an integrated platform for employers to manage employee shifts, schedules, break times, and handle payroll and overtime. WAAW cloud platform provides a complete suite of features, empowering employers and employees to collaborate and work flexibly from anywhere, at any time. The MVP 1 for this project has been released and can be viewed on `www.waaw.ca`.
+ # - name: "Insight"
+    #git_url: ""
+  #  description: everything seems goos here, testing if everything is working fine or not.
 
 # List of professional experience
 # Please focus on transferable skills, such as soft skills and data related skills
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Business System Analyst"
-    company: "Jarvis"
-    duration: "2023-present"
+    company: "Jarvis Canada"
+    duration: "June 2023-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: Assisted product owner in maintaining the product backlog, translated specifications into user stories, and participate in the development of BRD/FRD. Performed UML modeling to generate use cases and activity process flow diagrams to depict system functionalities visually. Collaboration is facilitated by JAD sessions for requirement elicitation. Conducted risk analysis for risk mitigation. Defined and implemented change management process to effectively manage changing requirements. Implemented and facilitated Agile/Scrum throughout the Product development lifecycle. Based on Technical expertise in technologies like Linux,GCP,RDBMS, Git, and SQL provided process improvement recommendations play a part in successful implementation of project as well as organisational goals.
   - title: "Business Analyst"
-    company: "VPS Solutions"
-    duration: "2021 to 2023"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-
+    company: "VPS Solutions (Canada)"
+    duration: "January 2022 to June 2023"
+    description: Participated and successfully implemented business/ IT process mapping and improvements, resulting in increased efficiency and cost savings. I addressed and resolved more than 50 high-priority backlog items, ensuring timely resolution. Through in-depth analysis of 70+ business requests, I emphasized interconnectedness and documented the anticipated impact of future development on systems, processes, procedures, and clients. Additionally, I conducted 30+ requirements interviews and workshops, leading to well-defined user requirements and user stories. Proficient in Agile Scrum, I led daily Scrums, Sprint planning, and Retrospective meetings. I also facilitated 50+ Joint Application Development (JAD) sessions with stakeholders and business partners.
+  # third experience
+  - title: "Business analyst"
+    company: "Inert IT Private Limited"
+    duration: "July 2019 to July 2021"
+    description: Successfully delivered web-based applications for clients of various domains like Healthcare, education and finance. I excel in requirements gathering and stakeholder management, resulting in a 20% increase in development efficiency and 15% reduction in rework. Assisted in developement and maintaince of product backlog for 4 projects. Acted as a bridge between clients and the development team, ensuring effective communication and collaboration. Worked closely with subject matter experts to gather insights and expertise, resulting in comprehensive and innovative solutions, which lead to 20% revenue increase.
+  # fourth experince
+  - title: "IT Project Coordinator"
+    company: "CompuCom"
+    duration: "April 2016 to April 2017"
+    description: Utilized leveraging tools such as MS Project, Visio, and SharePoint, I achieved increase in project planning efficiency, reducing documentation time by 20%. Created Project Schedules and managed project resources in Microsoft project. Tracked project progress and generated progress reports at regular intervals to present to stakeholders to keep them updated. Utilized JIRA for internal team communication and ticketing  ensured timely project completion, reducing project delays by 25%. Facilitating project meetings fostered effective communication, resulting in increase in team alignment and collaboration. Utilizing Confluence, I streamline project documentation, leading to a 15% improvement in progress tracking and lead to successfull project delivery.
+  # Fifth Experience
+  - title: "Test Engineer (Manual)"
+    company: "HCLTech"
+    duration: "September 2011 to September 2014"
+    description: As a manual tester at HCLTech, I have successfully managed test cases, define test requirements, track test execution progress, and report on test results using HP Quality center. It enables collaboration among team members, allowing them to share test artifacts, track changes, and communicate effectively. Written test cases for multiple projects and logged bugs using bug tracking tools like Bugzilla and Jira. With my meticulous approach, I have consistently ensured high-quality software by identifying and reporting defects effectively.
 #List of edcuation
 education:
   - school_name: "Visvesvaraya Technological University"
@@ -100,8 +119,8 @@ education:
     department: " Computer Science"
     # optional
     awards_achievements:
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
+    #  - "Scholarship"
+     # - "Dean's List (2015, 2016): Ut enim ad minim veniam"
       - "GPA: 3.6/4.0"
   - school_name: "Conestoga College of Advanced Learning and Technology"
     duration: "2021-2022"
@@ -109,20 +128,28 @@ education:
     department: "Business Analysis"
     awards_achievements:
       - "GPA: 3.8/4.0"
+  - school_name: "Conestoga College of Advanced Learning and Technology"
+    duration: "January 2021 to November 2021"
+    degree: "Post Graduate Diploma/ Associate Degree"
+    department: "Project Management"
+    awards_achievements:
+      - "GPA: 3.73/4.0"
 #Optional section
 others:
   #category
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "Certified Scrum Master from Scrum Alliance valid till 2025"
+      - "Enter Certificate in Business Analysis from IIBA"
+      - "Scaled Agile Framework Expert(SAFe 6.0) certified from Scaled Agile Inc"
+ # - title: "Awards"
+  #  bullets:
+   #   - "Winner"
   - title: "Activities/Hobbies"
     bullets:
       - "Competitive gaming; Played Cricket and represented state in Government sponsored cricket tournament"
-      - "Passionate about Astro-photography"
+      - "Passionate about Astro-photography, got recognised for the picture of Orion star cluster that was published in Local Magazine "
       - "Meditation: Passionate and have been teaching meditation from last 2 years"
-      - "Volunteer work at Khelo India"
+      - "Actively volunteered at Khelo India, dedicating my efforts to promote and raise awareness about sports among women in India"
 
