@@ -1,10 +1,8 @@
 # Introduction
 
-This project utilizes PostgresQL to analyse data pertaining to a newly created country club. The schema contains information about the members, facilities such as tennis courts, and booking histories for those amenities. The database is designed for club management to write queries so that they can analyse facility usage and demand as well as make decisions about operational efficiencies.
+In this project, PostgresQL is used to evaluate data relevant to a recently established country club. The schema includes details on the members, as well as information on bookings for amenities like tennis courts. The database is made to allow club management to create queries so they may examine facility utilisation and demand and decide how efficiently to operate the facility. The database schema consisted of mainly 3 tables Members(cd.members), Bookings (cd.bookings) and facilities(cd.facilities). 
 
-As depicted in the diagram below, the primary and foreign keys are stored as member IDs, a reference to the member that recommended them, and facility IDs.
 
-![image info](schema.png)
 
 # Table Setup (DDL)
 
@@ -48,7 +46,7 @@ CREATE TABLE cd.bookings
     CONSTRAINT fk_bookings_memid FOREIGN KEY (memid) REFERENCES cd.members(memid)
 );
 ```
-# SQL Queries
+# Here is the list of SQL queries that we executed on this database
 
 ## Modifying Data
 
@@ -68,7 +66,7 @@ INSERT INTO cd.facilities (facid, name, membercost, guestcost, initialoutlay, mo
 ```
 
 ###### Question 3
-We made a mistake when entering the data for the second tennis court. The initial outlay was 10000 rather than 8000: you need to alter the data to fix the error.
+Let`s assume that We made a mistake when entering the data for the second tennis court. The initial outlay was 10000 rather than 8000: you need to alter the data to fix the error.
 
 ```sql
 UPDATE cd.facilities
@@ -77,7 +75,7 @@ SET initialoutlay=10000
 ```
 
 ###### Question 4
-We want to alter the price of the second tennis court so that it costs 10% more than the first one. Try to do this without using constant values for the prices, so that we can reuse the statement if we want to.
+Here we want to alter the price of the second tennis court so that it costs 10% more than the first one. Try to do this without using constant values for the prices, so that we can reuse the statement if we want to.
 
 ```sql
 UPDATE cd.facilities
